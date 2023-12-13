@@ -1,0 +1,27 @@
+export const services = [
+    {
+        title:'Service',
+        tagline:'Placeholder',
+        image:'images/heart.png',
+    },
+    {
+        title:'Service2',
+        tagline:'Placeholder',
+        image:'images/heart.png',
+    },
+    {
+        title:'Service3',
+        tagline:'Placeholder',
+        image:'images/heart.png',
+    },
+    {
+        title:'Service4',
+        tagline:'Placeholder',
+        image:'images/heart.png',
+    },
+    {
+        title:'Service5',
+        tagline:'Placeholder',
+        image:'images/heart.png',
+    },
+];
