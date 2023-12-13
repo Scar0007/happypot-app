@@ -2,6 +2,9 @@ import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta';
 import Container from '../components/Container';
+import cactus from '../images/Cactus.jpg'
+import cross from '../images/close.png'
+
 const WishList = () => {
   return (
     <>
@@ -11,12 +14,12 @@ const WishList = () => {
           <div className='row'>
             <div className='col-3'>
                 <div className='wishlist-card position-relative'>
-                    <img src='images/' 
+                    <img src={cross} 
                      alt='cross' 
                      className='position-absolute cross img-fluid' 
                     />
                     <div className='wishlist-card-image'>
-                        <img src='images/cactus.jpg' className='img-fluid w-100' alt='cactus' />
+                        <img src={cactus} className='img-fluid w-100' alt='cactus' />
                     </div>
                     <div className='py-3 px-3'>
                      <h5 className='title'>Cactus</h5>
@@ -26,12 +29,12 @@ const WishList = () => {
             </div>
             <div className='col-3'>
                 <div className='wishlist-card position-relative'>
-                    <img src='images/' 
+                    <img src={cross} 
                      alt='cross' 
                      className='position-absolute cross img-fluid' 
                     />
                     <div className='wishlist-card-image'>
-                        <img src='images/cactus.jpg' className='img-fluid w-100' alt='cactus' />
+                        <img src={cactus} className='img-fluid w-100' alt='cactus' />
                     </div>
                     <div className='py-3 px-3'>
                      <h5 className='title'>Cactus</h5>
@@ -41,12 +44,12 @@ const WishList = () => {
             </div>
             <div className='col-3'>
                 <div className='wishlist-card position-relative'>
-                    <img src='images/' 
+                    <img src={cross} 
                      alt='cross' 
                      className='position-absolute cross img-fluid' 
                     />
                     <div className='wishlist-card-image'>
-                        <img src='images/cactus.jpg' className='img-fluid w-100' alt='cactus' />
+                        <img src={cactus} className='img-fluid w-100' alt='cactus' />
                     </div>
                     <div className='py-3 px-3'>
                      <h5 className='title'>Cactus</h5>
@@ -56,12 +59,12 @@ const WishList = () => {
             </div>
             <div className='col-3'>
                 <div className='wishlist-card position-relative'>
-                    <img src='images/' 
+                    <img src={cross}  
                      alt='cross' 
                      className='position-absolute cross img-fluid' 
                     />
                     <div className='wishlist-card-image'>
-                        <img src='images/cactus.jpg' className='img-fluid w-100' alt='cactus' />
+                        <img src={cactus} className='img-fluid w-100' alt='cactus' />
                     </div>
                     <div className='py-3 px-3'>
                      <h5 className='title'>Cactus</h5>

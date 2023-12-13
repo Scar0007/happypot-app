@@ -568,9 +568,9 @@ a {
 /* Wishlist Page */
 
 .wishlist-card .cross{
-  top: 15px;
-  right: 15px;
-  width: 25px;
+  top: 10px;
+  right: 10px;
+  width: 23px;
   padding: 3px;
   cursor: pointer;
 }

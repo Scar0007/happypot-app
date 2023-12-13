@@ -1,13 +1,14 @@
 import React from 'react'
 import ReactStars from "react-rating-stars-component";
 import { Link } from 'react-router-dom';
+import cactus from '../images/Cactus.jpg'
 const SpecialProduct = () => {
   return (
     <div className='col-6 mb-3'>
         <div className='special-product-card'>
             <div className='d-flex justify-justify-content-between gap-15'>
                 <div>
-                    <img src='images/cactus.jpg' className='img-fluid' alt='cactus' />
+                    <img src={cactus} className='img-fluid' alt='cactus' />
                 </div>
                 <div className='special-product-content'>
                     <h5 className='brand'>Example</h5>

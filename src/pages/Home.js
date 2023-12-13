@@ -6,6 +6,8 @@ import ProductCard from '../components/ProductCard';
 import SpecialProduct from '../components/SpecialProduct';
 import Container from '../components/Container';
 import { services } from '../utils/Data';
+import palm from '../images/palm.jpg'
+import cactus from '../images/Cactus.jpg'
 const Home = () => {
   return (
     <>
@@ -229,7 +231,7 @@ const Home = () => {
         <div className='row'>
           <div className='col-3'>
             <div className='famous-card position-relative'>
-              <img src='images/palm.jpg' className='img-fluid' alt='plant' />
+              <img src={palm} className='img-fluid' alt='plant' />
               <div className='famous-content position-absolute'>
               <h5 className='text-dark'>Sample Text</h5>
               <h6 className='text-dark'>Green Home</h6>
@@ -239,7 +241,7 @@ const Home = () => {
           </div>
           <div className='col-3'>
             <div className='famous-card position-relative'>
-              <img src='images/cactus.jpg' className='img-fluid' alt='plant' />
+              <img src={cactus} className='img-fluid' alt='plant' />
               <div className='famous-content position-absolute'>
               <h5>Sample Text</h5>
               <h6>Green Home</h6>
@@ -249,7 +251,7 @@ const Home = () => {
           </div>
           <div className='col-3'>
             <div className='famous-card position-relative'>
-              <img src='images/palm.jpg' className='img-fluid' alt='plant' />
+              <img src={palm} className='img-fluid' alt='plant' />
               <div className='famous-content position-absolute'>
               <h5 className='text-dark'>Sample Text</h5>
               <h6 className='text-dark'>Green Home</h6>
@@ -259,7 +261,7 @@ const Home = () => {
           </div>
           <div className='col-3'>
             <div className='famous-card position-relative'>
-              <img src='images/cactus.jpg' className='img-fluid' alt='plant' />
+              <img src={cactus} className='img-fluid' alt='plant' />
               <div className='famous-content position-absolute'>
               <h5>Sample Text</h5>
               <h6>Green Home</h6>
