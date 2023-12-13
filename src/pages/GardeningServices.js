@@ -2,6 +2,8 @@ import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta';
 import { Link } from 'react-router-dom';
+import cactus from '../images/Cactus.jpg'
+
 import Container from '../components/Container';
 const GardeningServices = () => {
   return (
@@ -13,7 +15,7 @@ const GardeningServices = () => {
           <h3 className='d-flex justify-content-center mb-5'>Services</h3>
           <div className='col-3'>
             <div className='services position-relative'>
-              <img src='images/cactus.jpg' className='img-fluid' alt='plant' />
+              <img src={cactus} className='img-fluid' alt='plant' />
               <div className='services-content position-absolute'>
                 <h3>Home Garden Set-up</h3>
               </div>
@@ -21,7 +23,7 @@ const GardeningServices = () => {
           </div>
           <div className='col-3'>
             <div className='services position-relative'>
-              <img src='images/cactus.jpg' className='img-fluid' alt='plant' />
+              <img src={cactus}className='img-fluid' alt='plant' />
               <div className='services-content position-absolute'>
                 <h3>Landscape Design</h3>
               </div>
@@ -29,7 +31,7 @@ const GardeningServices = () => {
           </div>
           <div className='col-3'>
             <div className='services position-relative'>
-              <img src='images/cactus.jpg' className='img-fluid' alt='plant' />
+              <img src={cactus} className='img-fluid' alt='plant' />
               <div className='services-content position-absolute'>
                 <h3>Mali on Door Maintenance</h3>
               </div>
@@ -37,7 +39,7 @@ const GardeningServices = () => {
           </div>
           <div className='col-3'>
             <div className='services position-relative'>
-              <img src='images/cactus.jpg' className='img-fluid' alt='plant' />
+              <img src={cactus} className='img-fluid' alt='plant' />
               <div className='services-content position-absolute'>
                 <h3>Landscape Maintenance</h3>
               </div>
