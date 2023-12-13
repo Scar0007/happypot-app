@@ -145,7 +145,7 @@ const OurStore = () => {
                   <option value='manual'>Featured</option>
                   <option value='best-selling' >Best Selling</option>
                   <option value='title-ascending'>Alphabetically, A-Z</option>
-                  <option value='title-descending'>Alphabetically, A-Z</option>
+                  <option value='title-descending'>Alphabetically, Z-A</option>
                   <option value='price-ascending'>Price, low to high</option>
                   <option value='price-descending'>Price, high to low</option>
                 </select>
