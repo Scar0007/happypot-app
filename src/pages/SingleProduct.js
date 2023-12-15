@@ -239,6 +239,9 @@ const SingleProduct = () => {
           </div>
           <div className='row'>
           <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
           </div>
         </div>
      </Container>
