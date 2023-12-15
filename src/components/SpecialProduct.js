@@ -16,7 +16,7 @@ const SpecialProduct = () => {
                     <ReactStars
                       count={5}
                       size={24}
-                      value='3'
+                      value={3}
                       edit={false}
                       activeColor="#ffd700"
                     />
@@ -35,8 +35,8 @@ const SpecialProduct = () => {
                     </div>
                     <div className='prod-count my-3'>
                         <p>Products: 5</p>
-                        <div class="progress">
-                          <div class="progress-bar" role="progressbar" style={{"width": "25%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress">
+                          <div className="progress-bar" role="progressbar" style={{"width": "25%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <Link className='button'>Add to Bag</Link>
